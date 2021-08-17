@@ -46,6 +46,7 @@ for follower in users:
 list_set = set(temp) 
 followers = (list(list_set))
 
+# Start spamming
 for user in followers:
     for page in range(1, 5):
         string = "{}?page={}&tab=following".format(user, page)
